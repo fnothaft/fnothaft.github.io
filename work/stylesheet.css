@@ -1,0 +1,227 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    font-weight:300; 
+    font-stretch:normal;
+    color: #000000;
+    padding: 5px;
+}
+
+ol.theses {
+    	  	      counter-reset: item;
+    	  	      list-style-type: none;
+}
+
+ol.theses li:before {
+    	  content: 'T' counter(item, decimal) '.';
+    	  counter-increment: item;
+	  width: 3em;
+	  margin-left: -3em;
+          padding-right: 1.65em;
+}
+
+ol.conferences {
+    	  	      counter-reset: item;
+    	  	      list-style-type: none;
+}
+
+ol.conferences li:before {
+    	       		 content: 'C' counter(item, decimal) '.';
+    	  		 counter-increment: item;
+	  		 width: 3em;
+	  		 margin-left: -3em;
+                         padding-right: 1.65em;
+}
+
+ol.tech-reports {
+    	  	      counter-reset: item;
+    	  	      list-style-type: none;
+}
+
+ol.tech-reports li:before {
+    	       		 content: 'TR' counter(item, decimal) '.';
+    	  		 counter-increment: item;
+	  		 width: 3em;
+	  		 margin-left: -3em;
+                         padding-right: 0.95em;
+}
+.resume {
+	height:994px;
+}
+
+.index {
+       height: 665px;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+.push {
+      margin-top:85px;
+}
+
+.push-index {
+	    margin-top:70px;
+}
+
+.one-fifth-right {
+	   width:160px;
+	   background-color: #DDDDDD;
+	   padding-left: 10px;
+	   padding-right: 10px;
+	   float:right;
+}
+
+.one-fifth {
+	   width:180px;
+	   background-color: #DDDDDD;
+	   float:left;
+}
+
+.box {
+     height:40px;
+     }
+
+.active {
+	background-color: #E0E0E0;
+}
+
+.inactive {
+	  height:25px;
+}
+
+.right {
+       float:right;
+       }
+
+.full {
+      width:100%;
+      padding: 0px;
+}
+
+.four-fifths {
+	     float:right;
+	     width:620px;
+	     background-color: #E0E0E0;
+}
+
+.three-fifths {
+	      float:right;
+	      width:440px;
+	      background-color: #E0E0E0;
+              padding:0;
+              display:table;
+}
+
+
+.three-fifths div {
+	    display:table-cell;
+	    vertical-align:middle;
+            padding-left:15px;
+            padding-right:15px;
+}
+
+#wrapper {
+	 width: 800px;
+	 padding: 20px;
+	 margin-right:auto;
+	 margin-left:auto;
+}
+
+#header {
+	width: 100%;
+}
+
+#bottom {
+	width: 750px;
+	background-color: #CCCCCC;
+	clear:both;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	padding:0;
+	height:30px;
+}
+
+.separator {
+	   float: top;
+	   width: 100%;
+}
+
+.pagetext {
+	  width:360px;
+	  margin-left:38px;
+}
+
+.tab {
+       width: 250px;
+       margin:0;
+       padding:0;
+       height: 30px;
+       float: left;
+}
+
+.nocenter {
+	  text-align:left
+}
+
+h1,h2,h3,h4,h5 {
+	       text-align: center
+}
+
+h2 {
+   font-size: 20px;
+}
+
+h3 {
+   font-size: 14px;
+   margin-top: 6px;
+}
+
+.morespace {
+	   margin-top: 10px;
+	   margin-bottom: 10px;
+}
+
+h4 {
+   font-size: 13px;
+}
+
+p,li {
+  font-size: 13px;
+  text-align: justify;
+}
+
+.nospace {
+	 margin:0;
+	 padding:0;
+}
+
+ul {
+   margin:0;
+   padding-left:15px;
+}
+
+.padtop {
+	margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+a.home {
+  text-decoration: none;
+  color: #000000;
+}
+
+.bold {
+      font-weight:600;
+}
+
+.italics {
+	 font-style: italic;
+}

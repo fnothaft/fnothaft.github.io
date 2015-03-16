@@ -13,7 +13,7 @@ ol.theses {
 }
 
 ol.theses li:before {
-    	  content: 'T' counter(item, decimal) '.';
+    	  content: 'T' counter(item) '.';
     	  counter-increment: item;
 	  width: 3em;
 	  margin-left: -3em;
@@ -21,13 +21,13 @@ ol.theses li:before {
 }
 
 ol.conferences {
-    	  	      counter-reset: item;
+    	  	      counter-reset: item ;
     	  	      list-style-type: none;
 }
 
 ol.conferences li:before {
-    	       		 content: 'C' counter(item, decimal) '.';
-    	  		 counter-increment: item;
+    	       		 content: 'C' counter(item) '.';
+    	  		 counter-increment: item ;
 	  		 width: 3em;
 	  		 margin-left: -3em;
                          padding-right: 1.65em;
@@ -39,7 +39,7 @@ ol.tech-reports {
 }
 
 ol.tech-reports li:before {
-    	       		 content: 'TR' counter(item, decimal) '.';
+    	       		 content: 'TR' counter(item) '.';
     	  		 counter-increment: item;
 	  		 width: 3em;
 	  		 margin-left: -3em;
@@ -50,7 +50,16 @@ ol.tech-reports li:before {
 }
 
 .index {
-       height: 665px;
+       height: 1070px;
+}
+
+p + ul {
+    margin-top: -14px;
+    margin-bottom: 14px;
+}
+
+#end {
+     margin-bottom: 0px;
 }
 
 div {
